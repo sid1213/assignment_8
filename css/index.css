@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.main-div{
+    float: left;
+    width: 100%;
+    padding: 3rem;
+    background: red;
+    background: url(../images/backcover.svg);
+    background-repeat: no-repeat ;
+    background-position: top right;
+    background-size:contain;
+}
+nav{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items h5 {
+    display: inline-block;
+    margin: 1rem ;
+}
+.intro-section{
+    width: 100%;
+    height: fit-content;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.left-section,.imgs-div{
+    width: 50%;
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.left-section h1{
+    font-size: 4rem;
+    color: #475099;
+    font-weight: 900;
+}
+.left-section h4{
+  color:  #797c98;
+  margin: 3rem 0;
+  width: 50%;
+}
+.imgs-div img{
+    width: 100%;
+    object-fit: contain;
+
+}
+.abs{
+    position: absolute;
+    width: 20% !important;
+}
+.t-0{
+    top: 0;
+}
+.b-0{
+    bottom: 0;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius: 50% 0;
+    background: linear-gradient(90deg, hsla(263, 85%, 65%, 1) 11%, hsla(313, 86%, 75%, 1) 66%);
+     border: none;
+    color: white;
+
+}
+.learn-more-btn{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
